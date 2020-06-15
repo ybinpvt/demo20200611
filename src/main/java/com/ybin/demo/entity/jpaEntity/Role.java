@@ -1,4 +1,6 @@
-package com.ybin.demo.entity;
+package com.ybin.demo.entity.jpaEntity;
+
+import lombok.Data;
 
 import javax.persistence.*;
 
@@ -8,6 +10,7 @@ import javax.persistence.*;
  * @date 2020/6/12 8:44
  */
 
+@Data
 @Entity
 @Table(name = "role")
 public class Role {

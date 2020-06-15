@@ -1,4 +1,4 @@
-package com.ybin.demo.entity;
+package com.ybin.demo.entity.jpaEntity;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import lombok.Data;

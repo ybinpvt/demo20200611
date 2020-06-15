@@ -1,6 +1,7 @@
 package com.ybin.demo.repository;
 
-import com.ybin.demo.entity.User;
+import com.ybin.demo.entity.jpaEntity.User;
+import com.ybin.demo.repository.jpaRepository.UserRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

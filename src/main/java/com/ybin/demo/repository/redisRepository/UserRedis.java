@@ -1,8 +1,8 @@
-package com.ybin.demo.redis;
+package com.ybin.demo.repository.redisRepository;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.ybin.demo.entity.User;
+import com.ybin.demo.entity.jpaEntity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Repository;

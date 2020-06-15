@@ -1,6 +1,6 @@
-package com.ybin.demo.repository;
+package com.ybin.demo.repository.jpaRepository;
 
-import com.ybin.demo.entity.User;
+import com.ybin.demo.entity.jpaEntity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -54,3 +54,9 @@ spring:
         min-idle: 0
         max-wait: -1
     password: redis
+
+  data:
+    mongodb:
+      host: 2.168.173.209
+      port: 27017
+      database: demo20200611
