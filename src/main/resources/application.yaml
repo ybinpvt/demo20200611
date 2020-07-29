@@ -60,3 +60,6 @@ spring:
       host: 172.17.70.161
       port: 27017
       database: demo20200611
+
+logging:
+  level: error
